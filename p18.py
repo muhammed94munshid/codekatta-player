@@ -1,7 +1,7 @@
 n=int(input())
-s=sorted('kabali')
-c=0
+x=sorted('kabali')
+count=0
 for i in range(n):
-    if s==sorted(input("Enter input")):
-        c+=1
-print(c)
+    if x==sorted(input("Enter")):
+        count+=1
+print(count)
